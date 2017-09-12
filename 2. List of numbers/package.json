@@ -1,0 +1,16 @@
+{
+  "name": "list-of-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./tasks/sass.js",
+    "watch": "nodemon -e scss -x \"npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
