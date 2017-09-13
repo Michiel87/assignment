@@ -1,0 +1,11 @@
+{
+  "name": "Macaw",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "michieldevos.html",
+  "author": "Michiel de Vos <Michiel_87@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

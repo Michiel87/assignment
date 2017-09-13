@@ -1,0 +1,155 @@
+body {
+  font-family: 'Jaldi', sans-serif;
+}
+
+.box span {
+  font-size: 120px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.box span:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: auto;
+  display: none;
+}
+
+.box {
+  height: 20vh;
+  width: 80vw;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 150px auto;
+  border: 1px solid black;
+  box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  overflow: auto;
+  display: none;
+}
+
+.modal-box {
+  width: 800px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin: 150px auto;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.model-header {
+  height: 50px;
+  width: 800px;
+  color: white;
+  background: black;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.model-header h1 {
+  margin: 0 0 0 10px;
+}
+
+.model-header span {
+  margin: 0 8px;
+}
+
+.model-header span:hover {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.model-body {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.model-footer {
+  height: 1px;
+}
+
+.episode {
+  margin: 2px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.episode-thumbnail {
+  display: flex;
+}
+
+.episode-thumbnail img {
+  align-self: flex-start;
+  margin: 2px;
+  border: 1px solid black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.episode-info {
+  width: 70%;
+}
+
+.episode-info h3 {
+  margin: 0 0 0 5px;
+}
+
+.episode-info p {
+  margin: 5px 5px 0 5px;
+}
+
+.episode-info hr {
+  margin: 0 5px 0 5px;
+  height: 1px;
+  border:none;
+  background-color: black;
+}
+
+#body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.alive {
+  height: 2vh;
+  width: 2vw;
+  background-color: black;
+  display: inline-block;
+  float: left;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.dead {
+  height: 2vh;
+  width: 2vw;
+  background-color: white;
+  display: inline-block;
+  float: left;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
